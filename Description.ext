@@ -1,0 +1,145 @@
+///////////////////////////////////////////////////////////
+// Armed Assault Description File
+// Created with ArmA Edit - Version 1.3.4000
+///////////////////////////////////////////////////////////
+
+showCompass = 1;
+showGPS = 1;
+showWatch = 1;
+
+maxScore = 10000;
+avgScore = 5000;
+minScore = 0;
+
+respawn = "BASE";
+respawnDelay = 10;
+
+// NOTE: Your sound/radio files must be in the ...\mission\sound
+// folder and your music files in the ...\mission\music folder.
+class CfgRadio
+{
+	// List of sounds (.ogg files without the .ogg extension)
+	sounds[] = {eastCaptured1, eastCaptured2, eastCaptured3, eastCaptured4, eastCaptured5, eastLost1, eastLost2, eastLost3, eastLost4, eastLost5, westCaptured1, westCaptured2, westCaptured3, westCaptured4, westCaptured5, westLost1, westLost2, westLost3, westLost4, westLost5};
+
+	// Definition for each sound
+	class eastCaptured1
+	{
+		name = "eastCaptured1"; // Name for mission editor
+		sound[] = {\sound\eastCaptured1.ogg, db + 0, 1.0};
+		title = ""; // Text for radio message
+	};
+	class eastCaptured2
+	{
+		name = "eastCaptured2"; // Name for mission editor
+		sound[] = {\sound\eastCaptured2.ogg, db + 0, 1.0};
+		title = ""; // Text for radio message
+	};
+	class eastCaptured3
+	{
+		name = "eastCaptured3"; // Name for mission editor
+		sound[] = {\sound\eastCaptured3.ogg, db + 0, 1.0};
+		title = ""; // Text for radio message
+	};
+	class eastCaptured4
+	{
+		name = "eastCaptured4"; // Name for mission editor
+		sound[] = {\sound\eastCaptured4.ogg, db + 0, 1.0};
+		title = ""; // Text for radio message
+	};
+	class eastCaptured5
+	{
+		name = "eastCaptured5"; // Name for mission editor
+		sound[] = {\sound\eastCaptured5.ogg, db + 0, 1.0};
+		title = ""; // Text for radio message
+	};
+	class eastLost1
+	{
+		name = "eastLost1"; // Name for mission editor
+		sound[] = {\sound\eastLost1.ogg, db + 0, 1.0};
+		title = ""; // Text for radio message
+	};
+	class eastLost2
+	{
+		name = "eastLost2"; // Name for mission editor
+		sound[] = {\sound\eastLost2.ogg, db + 0, 1.0};
+		title = ""; // Text for radio message
+	};
+	class eastLost3
+	{
+		name = "eastLost3"; // Name for mission editor
+		sound[] = {\sound\eastLost3.ogg, db + 0, 1.0};
+		title = ""; // Text for radio message
+	};
+	class eastLost4
+	{
+		name = "eastLost4"; // Name for mission editor
+		sound[] = {\sound\eastLost4.ogg, db + 0, 1.0};
+		title = ""; // Text for radio message
+	};
+	class eastLost5
+	{
+		name = "eastLost5"; // Name for mission editor
+		sound[] = {\sound\eastLost5.ogg, db + 0, 1.0};
+		title = ""; // Text for radio message
+	};
+	class westCaptured1
+	{
+		name = "westCaptured1"; // Name for mission editor
+		sound[] = {\sound\westCaptured1.ogg, db + 0, 1.0};
+		title = ""; // Text for radio message
+	};
+	class westCaptured2
+	{
+		name = "westCaptured2"; // Name for mission editor
+		sound[] = {\sound\westCaptured2.ogg, db + 0, 1.0};
+		title = ""; // Text for radio message
+	};
+	class westCaptured3
+	{
+		name = "westCaptured3"; // Name for mission editor
+		sound[] = {\sound\westCaptured3.ogg, db + 0, 1.0};
+		title = ""; // Text for radio message
+	};
+	class westCaptured4
+	{
+		name = "westCaptured4"; // Name for mission editor
+		sound[] = {\sound\westCaptured4.ogg, db + 0, 1.0};
+		title = ""; // Text for radio message
+	};
+	class westCaptured5
+	{
+		name = "westCaptured5"; // Name for mission editor
+		sound[] = {\sound\westCaptured5.ogg, db + 0, 1.0};
+		title = ""; // Text for radio message
+	};
+	class westLost1
+	{
+		name = "westLost1"; // Name for mission editor
+		sound[] = {\sound\westLost1.ogg, db + 0, 1.0};
+		title = ""; // Text for radio message
+	};
+	class westLost2
+	{
+		name = "westLost2"; // Name for mission editor
+		sound[] = {\sound\westLost2.ogg, db + 0, 1.0};
+		title = ""; // Text for radio message
+	};
+	class westLost3
+	{
+		name = "westLost3"; // Name for mission editor
+		sound[] = {\sound\westLost3.ogg, db + 0, 1.0};
+		title = ""; // Text for radio message
+	};
+	class westLost4
+	{
+		name = "westLost4"; // Name for mission editor
+		sound[] = {\sound\westLost4.ogg, db + 0, 1.0};
+		title = ""; // Text for radio message
+	};
+	class westLost5
+	{
+		name = "westLost5"; // Name for mission editor
+		sound[] = {\sound\westLost5.ogg, db + 0, 1.0};
+		title = ""; // Text for radio message
+	};
+};

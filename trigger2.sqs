@@ -1,0 +1,7 @@
+_desencadenante=_this select 0;
+_posicion = getpos _desencadenante;
+_desencadenante setpos getpos AWAY;
+booleanoCiudad2=False;
+~1
+booleanoCiudad2=True;
+_desencadenante setpos _posicion;

@@ -1,0 +1,14 @@
+estadoCiudad1 = "east";
+estadoCiudad2 = "east";
+estadoCiudad3 = "east";
+estadoCiudad4 = "east";
+estadoCiudad5 = "east";
+booleanoCiudad1=True;
+booleanoCiudad2=True;
+booleanoCiudad3=True;
+booleanoCiudad4=True;
+booleanoCiudad5=True;
+texturaBanderaWest="\flags\usa.jpg";
+texturaBanderaEast="\flags\ussr.jpg";
+player addrating 850;
+player addAction ["Rating", "consultarRating.sqs"];
