@@ -1,0 +1,17 @@
+_lider = _this select 0;
+? (side _lider == WEST):goto "WEST"
+? (side _lider == EAST):goto "EAST"
+#WEST
+if (estadoCiudad1=="west")then{group _lider move position ciudad1;exit};
+if (estadoCiudad2=="west")then{group _lider move position ciudad2;exit};
+if (estadoCiudad3=="west")then{group _lider move position ciudad3;exit};
+if (estadoCiudad4=="west")then{group _lider move position ciudad4;exit};
+if (estadoCiudad5=="west")then{group _lider move position ciudad5;exit};
+exit
+#EAST
+if (estadoCiudad5=="east")then{group _lider move position ciudad5;exit};
+if (estadoCiudad4=="east")then{group _lider move position ciudad4;exit};
+if (estadoCiudad3=="east")then{group _lider move position ciudad3;exit};
+if (estadoCiudad2=="east")then{group _lider move position ciudad2;exit};
+if (estadoCiudad1=="east")then{group _lider move position ciudad1;exit};
+exit

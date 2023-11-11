@@ -12,3 +12,8 @@ texturaBanderaWest="\flags\usa.jpg";
 texturaBanderaEast="\flags\ussr.jpg";
 player addrating 850;
 player addAction ["Rating", "consultarRating.sqs"];
+victoriaBooleano=False;
+posicionFuel=getpos westFuel;
+posicionAmmo=getpos westAmmo;
+posicionRepair=getpos westRepair;
+posicionMedic=getpos westMedic;
