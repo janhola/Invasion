@@ -1,5 +1,5 @@
 _jugador = _this select 0;
-if(rating _jugador < 1500)then{hint "No hay suficientes creditos!";exit;};
-_jugador addrating -1500;
+if(rating _jugador < 2000)then{hint "No hay suficientes creditos!";exit;};
+_jugador addrating -2000;
 hint "Click en el mapa para dirigir la artilleria!";
 onMapSingleClick {[_pos] exec "artilleryDrop.sqs"};

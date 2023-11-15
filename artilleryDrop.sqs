@@ -8,20 +8,16 @@ _sonido = "HeliHEmpty" createvehicle position AWAY;
 #CICLO
 if(_rondas==0)then{goto "FINAL"};
 _rondas=_rondas-1
-_sonido setpos [(_posicion select 0) -15 + random(30),(_posicion select 1) -15 + random(30),0];
+_sonido setpos [(_posicion select 0) -25 + random(50),(_posicion select 1) -25 + random(50),0];
 _random=random(5);
 ?(_random<1):_sonido say "arty1";
 ?(_random>=1 && _random<2):_sonido say "arty2";
 ?(_random>=2 && _random<3):_sonido say "arty3";
 ?(_random>=3 && _random<4):_sonido say "arty4";
 ?(_random>=4 && _random<5):_sonido say "arty5";
-~random(1)
-_boom = "M2StaticMG" createvehicle [getpos _sonido select 0,getpos _sonido select 1,-1.5];
-_boom setpos [getpos _sonido select 0,getpos _sonido select 1,-1.5];
-_boom setdammage 1;
-~0.1
-deletevehicle _boom;
-~2
+~1
+_boom = "Shell105" createVehicle position _sonido;
+~random(2)
 goto "CICLO"
 #FINAL
 deletevehicle _sonido;

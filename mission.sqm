@@ -110,7 +110,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={9483.264648,29.889126,3338.044189};
+					position[]={9483.339844,29.889126,3338.047852};
 					azimut=180.000000;
 					id=0;
 					side="WEST";
@@ -3034,7 +3034,7 @@ class Mission
 			activationBy="ALPHA";
 			repeating=1;
 			age="UNKNOWN";
-			text="Artilleria (1500)";
+			text="Artilleria (2000)";
 			expActiv="[player] exec ""artilleryCall.sqs""";
 			class Effects
 			{
