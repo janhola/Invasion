@@ -2698,7 +2698,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=14;
+		items=16;
 		class Item0
 		{
 			position[]={9526.872070,29.834999,4144.682617};
@@ -2789,7 +2789,7 @@ class Mission
 		};
 		class Item11
 		{
-			position[]={12550.411133,1.104133,12655.861328};
+			position[]={12550.443359,1.243460,12655.357422};
 			name="markerAvion1";
 			text="Unidad Aerea Alpha";
 			type="Dot";
@@ -2797,7 +2797,7 @@ class Mission
 		};
 		class Item12
 		{
-			position[]={12550.407227,1.104133,12655.666992};
+			position[]={12550.439453,1.243460,12655.163086};
 			name="markerAvion2";
 			text="Unidad Aerea Beta";
 			type="Dot";
@@ -2809,6 +2809,22 @@ class Mission
 			name="respawn_west";
 			text="Base West";
 			type="Start";
+			colorName="ColorBlue";
+		};
+		class Item14
+		{
+			position[]={12550.410156,1.243460,12655.861328};
+			name="markerTanqueta1";
+			text="Unidad de refuerzo Alpha";
+			type="Dot";
+			colorName="ColorBlue";
+		};
+		class Item15
+		{
+			position[]={12550.406250,1.243460,12655.642578};
+			name="markerTanqueta2";
+			text="Unidad de refuerzo Beta";
+			type="Dot";
 			colorName="ColorBlue";
 		};
 	};
@@ -2932,7 +2948,7 @@ class Mission
 			b=0.000000;
 			age="UNKNOWN";
 			expCond="estadoCiudad1==""west"" and estadoCiudad2==""west"" and estadoCiudad3==""west"" and estadoCiudad4==""west"" and estadoCiudad5==""west""";
-			expActiv="titleText["" "",""BLACK OUT"",20];generalWest sidechat ""Victoria!"";generalWest sideradio ""westVictory"";victoriaBooleano=True";
+			expActiv="""1"" objStatus ""DONE"";titleText["" "",""BLACK OUT"",20];generalWest sidechat ""Victoria!"";generalWest sideradio ""westVictory"";victoriaBooleano=True";
 			class Effects
 			{
 				track="Track2";
